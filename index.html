@@ -17,7 +17,48 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <style>
-        
+    body{
+        background: white; 
+        padding-top: 70px;
+}
+   #icon{
+        padding-top: 10px; padding-bottom:25px;
+   } 
+   #instagram{
+        padding-top: 10px;  
+   }
+   #buttom{
+        padding-top: 10px;   
+   }
+       #buttom2{
+            padding-top:10px;
+   }
+    #grid{
+        padding-bottom: 10px; padding-top: 10px;
+    }
+    #home{
+        padding-top: 10px;
+    }
+    #home2{
+        padding-top: 10px; background: lightgray;
+    }
+    .containerTrx{
+      margin-top: 10px; 
+    }
+    .centeredContainer{
+        background: white; 
+    }
+    .postContentContainer{
+         padding-bottom: 25px;
+    }
+    #comentary{
+        padding-bottom: 25px;
+    }
+    #bottomcontainer{
+        margin: 8px;
+    }
+    
+    
     </style>
 
     <body>
@@ -25,14 +66,14 @@
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">&nbsp;</div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><i class="fab fa-instagram fa-2x" style="padding-top: 10px; padding-bottom:25px;"> <i>Instagram</i></i></div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" id="icon"><i class="fab fa-instagram fa-2x"> <i>Instagram</i></i></div>
                 <div class="col-lg-5 col-md-5 col-sm-3 col-xs-1">&nbsp;</div>
-                <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 text-right" style="padding-top: 10px;">
+                <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 text-right" id="instagram">
                     <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">Create a new post</button>
                 </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1 text-left" style="padding-top: 10px;">
-                    <div class="dropdown">
-                        <button class="btn btn-primary-outline dropdown-toggle" type="button" data-toggle="dropdown" style="padding-button"><i class="fas fa-cog"></i>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1 text-left" id="button1">
+                    <div class="dropdown" id="buttom2">
+                        <button class="btn btn-primary-outline dropdown-toggle" type="button" data-toggle="dropdown"><i class="fas fa-cog"></i>
                             <span class="caret"></span></button>
                         <ul class="dropdown-menu">
                             <li><a href="#">Action</a></li>
@@ -50,7 +91,7 @@
 
         <div class="container-fluid">
 
-            <div class="row" style="padding-bottom: 10px; padding-top: 10px;">
+            <div class="row" id="grid">
                 <div class="col-lg-12 text-center custom-grid"> 
                     <a data-toggle="tab" href="#home" class="btn btn-default btn-sm active"><span class="glyphicon glyphicon-th"></span> </a>
                     <a data-toggle="tab" href="#home2" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-stop"></span> </a>
@@ -59,7 +100,7 @@
 
             <div class="tab-content">
 
-                <div class="row imagetiles tab-pane fade in active" style="padding-top: 10px;" id="home">
+                <div class="row imagetiles tab-pane fade in active"  id="home">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
                         <img src="http://www.quoteambition.com/wp-content/uploads/2017/07/god-quotes-sayings-famous.jpg" class="img-responsive" >
                     </div>
@@ -70,13 +111,13 @@
                         <img src="http://www.quoteambition.com/wp-content/uploads/2017/07/god-quotes-sayings-famous.jpg" class="img-responsive" >
                     </div>
                 </div>
-
-                <div class="row tab-pane fade" style="padding-top: 10px; background: gray" id="home2">
+                
+                <div class="row tab-pane fade" id="home2">
                     
                     <!-- Inicio Div Principal -->
-                    <div class="col-md-12 col-lg-12 text-center containerTrx" style="margin-top: 10px;">
+                    <div class="col-md-12 col-lg-12 text-center containerTrx">
                         <div class="col-lg-2"></div>
-                        <div id="mainContainer" class="col-lg-8 centeredContainer" style="background: white">
+                        <div id="mainContainer" class="col-lg-8 centeredContainer">
                             <div class="postcontainer col-lg-12">
                                 <div class="postHeaderContainer col-lg-12">
                                     <div class="postHeaderTitleContainer col-lg-6 text-left">
@@ -86,7 +127,7 @@
                                         <h3>12/14 </h3>
                                     </div>
                                 </div>
-                                <div class="postContentContainer col-lg-12" style="padding-bottom: 25px;">
+                                <div class="postContentContainer col-lg-12">
                                     <img src="http://a57.foxnews.com/images.foxnews.com/content/fox-news/opinion/2018/03/30/newt-gingrich-easter-shows-wondrous-love-god/_jcr_content/par/featured_image/media-0.img.jpg/0/0/1522359897007.jpg?ve=1" 
                                          class="img-responsive img-rounded">
                                 </div>
@@ -96,20 +137,20 @@
                                 <div class="col-lg-12 text-justify">
                                     <p>Our Father in heaven, hallowed be your name. Your kingdom come, your will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our debts, as we also have forgiven our debtors. And lead us not into temptation, but deliver us from evilt</p>
                                 </div>
-                                <div class="col-lg-12 text-justify" style="padding-bottom: 25px;"><i class="far fa-heart">  Comment...</i>
+                                <div class="col-lg-12 text-justify" id="comentary"><i class="far fa-heart"> Comment...</i>
                                    
                                 </div>
                             </div>        
                         </div>
-                        <div class="col-lg-2" style="margin: 8px;"></div>
+                        <div class="col-lg-2" id="bottomcontainer"></div>
                         
                       
                     </div>
                     <!-- FIN Div Principal -->
                     
-                   <div class="col-md-12 col-lg-12 text-center containerTrx" style="margin-top: 10px;">
+                   <div class="col-md-12 col-lg-12 text-center containerTrx">
                         <div class="col-lg-2"></div>
-                        <div id="mainContainer" class="col-lg-8 centeredContainer" style="background: white">
+                        <div id="mainContainer" class="col-lg-8 centeredContainer">
                             <div class="postcontainer col-lg-12">
                                 <div class="postHeaderContainer col-lg-12">
                                     <div class="postHeaderTitleContainer col-lg-6 text-left">
@@ -119,31 +160,96 @@
                                         <h3>12/14 </h3>
                                     </div>
                                 </div>
-                                <div class="postContentContainer col-lg-12" style="padding-bottom: 25px;">
+                                <div class="postContentContainer col-lg-12">
                                     <img src="http://a57.foxnews.com/images.foxnews.com/content/fox-news/opinion/2018/03/30/newt-gingrich-easter-shows-wondrous-love-god/_jcr_content/par/featured_image/media-0.img.jpg/0/0/1522359897007.jpg?ve=1" 
                                          class="img-responsive img-rounded">
                                 </div>
-                                 <div class="col-lg-12 text-justify"><i class="fas fa-heart icon"></i>
+                                 <div class="col-lg-12 text-justify">
                                     <p>23 likes</p>
                                 </div>
                                 <div class="col-lg-12 text-justify">
                                     <p>Our Father in heaven, hallowed be your name. Your kingdom come, your will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our debts, as we also have forgiven our debtors. And lead us not into temptation, but deliver us from evilt</p>
                                 </div>
-                                <div class="col-lg-12 text-justify">
-                                    <p>Comment</p>
+                                <div class="col-lg-12 text-justify" id="comentary"><i class="far fa-heart"> Comment...</i>
+                                   
                                 </div>
                             </div>        
                         </div>
-                        <div class="col-lg-2" style="margin: 10px;"></div>
+                        <div class="col-lg-2" id="bottomcontainer"></div>
+                        
+                      
+                    </div>
+                    <!-- FIN Div Principal -->
+
+                   <div class="col-md-12 col-lg-12 text-center containerTrx">
+                        <div class="col-lg-2"></div>
+                        <div id="mainContainer" class="col-lg-8 centeredContainer">
+                            <div class="postcontainer col-lg-12">
+                                <div class="postHeaderContainer col-lg-12">
+                                    <div class="postHeaderTitleContainer col-lg-6 text-left">
+                                        <h2>Jesus Christ</h2>
+                                    </div>
+                                    <div class="postHeaderDateContainer col-lg-6 text-right">
+                                        <h3>12/14 </h3>
+                                    </div>
+                                </div>
+                                <div class="postContentContainer col-lg-12">
+                                    <img src="http://a57.foxnews.com/images.foxnews.com/content/fox-news/opinion/2018/03/30/newt-gingrich-easter-shows-wondrous-love-god/_jcr_content/par/featured_image/media-0.img.jpg/0/0/1522359897007.jpg?ve=1" 
+                                         class="img-responsive img-rounded">
+                                </div>
+                                 <div class="col-lg-12 text-justify">
+                                    <p>23 likes</p>
+                                </div>
+                                <div class="col-lg-12 text-justify">
+                                    <p>Our Father in heaven, hallowed be your name. Your kingdom come, your will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our debts, as we also have forgiven our debtors. And lead us not into temptation, but deliver us from evilt</p>
+                                </div>
+                                <div class="col-lg-12 text-justify" id="comentary"><i class="far fa-heart"> Comment...</i>
+                                   
+                                </div>
+                            </div>        
+                        </div>
+                        <div class="col-lg-2" id="bottomcontainer"></div>
+                        
+                      
+                    </div>
+                    <!-- FIN Div Principal -->
+
+                   <div class="col-md-12 col-lg-12 text-center containerTrx">
+                        <div class="col-lg-2"></div>
+                        <div id="mainContainer" class="col-lg-8 centeredContainer">
+                            <div class="postcontainer col-lg-12">
+                                <div class="postHeaderContainer col-lg-12">
+                                    <div class="postHeaderTitleContainer col-lg-6 text-left">
+                                        <h2>Jesus Christ</h2>
+                                    </div>
+                                    <div class="postHeaderDateContainer col-lg-6 text-right">
+                                        <h3>12/14 </h3>
+                                    </div>
+                                </div>
+                                <div class="postContentContainer col-lg-12">
+                                    <img src="http://a57.foxnews.com/images.foxnews.com/content/fox-news/opinion/2018/03/30/newt-gingrich-easter-shows-wondrous-love-god/_jcr_content/par/featured_image/media-0.img.jpg/0/0/1522359897007.jpg?ve=1" 
+                                         class="img-responsive img-rounded">
+                                </div>
+                                 <div class="col-lg-12 text-justify">
+                                    <p>23 likes</p>
+                                </div>
+                                <div class="col-lg-12 text-justify">
+                                    <p>Our Father in heaven, hallowed be your name. Your kingdom come, your will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our debts, as we also have forgiven our debtors. And lead us not into temptation, but deliver us from evilt</p>
+                                </div>
+                                <div class="col-lg-12 text-justify" id="comentary"><i class="far fa-heart"> Comment...</i>
+                                   
+                                </div>
+                            </div>        
+                        </div>
+                        <div class="col-lg-2" id="bottomcontainer"></div>
                         
                       
                     </div>
                     <!-- FIN Div Principal -->
                     
-
-                    <div class="col-md-12 col-lg-12 text-center containerTrx" style="margin-top: 10px;">
+                     <div class="col-md-12 col-lg-12 text-center containerTrx">
                         <div class="col-lg-2"></div>
-                        <div id="mainContainer" class="col-lg-8 centeredContainer" style="background: white">
+                        <div id="mainContainer" class="col-lg-8 centeredContainer">
                             <div class="postcontainer col-lg-12">
                                 <div class="postHeaderContainer col-lg-12">
                                     <div class="postHeaderTitleContainer col-lg-6 text-left">
@@ -153,92 +259,27 @@
                                         <h3>12/14 </h3>
                                     </div>
                                 </div>
-                                <div class="postContentContainer col-lg-12" style="padding-bottom: 25px;">
+                                <div class="postContentContainer col-lg-12">
                                     <img src="http://a57.foxnews.com/images.foxnews.com/content/fox-news/opinion/2018/03/30/newt-gingrich-easter-shows-wondrous-love-god/_jcr_content/par/featured_image/media-0.img.jpg/0/0/1522359897007.jpg?ve=1" 
                                          class="img-responsive img-rounded">
                                 </div>
-                                 <div class="col-lg-12 text-justify"><i class="fas fa-heart icon"></i>
+                                 <div class="col-lg-12 text-justify">
                                     <p>23 likes</p>
                                 </div>
                                 <div class="col-lg-12 text-justify">
                                     <p>Our Father in heaven, hallowed be your name. Your kingdom come, your will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our debts, as we also have forgiven our debtors. And lead us not into temptation, but deliver us from evilt</p>
                                 </div>
-                                <div class="col-lg-12 text-justify">
-                                    <p>Comment</p>
+                                <div class="col-lg-12 text-justify" id="comentary"><i class="far fa-heart"> Comment...</i>
+                                   
                                 </div>
                             </div>        
                         </div>
-                        <div class="col-lg-2" style="margin: 10px;"></div>
+                        <div class="col-lg-2" id="bottomcontainer"></div>
                         
                       
                     </div>
                     <!-- FIN Div Principal -->
-
-                   <div class="col-md-12 col-lg-12 text-center containerTrx" style="margin-top: 10px;">
-                        <div class="col-lg-2"></div>
-                        <div id="mainContainer" class="col-lg-8 centeredContainer" style="background: white">
-                            <div class="postcontainer col-lg-12">
-                                <div class="postHeaderContainer col-lg-12">
-                                    <div class="postHeaderTitleContainer col-lg-6 text-left">
-                                        <h2>Jesus Christ</h2>
-                                    </div>
-                                    <div class="postHeaderDateContainer col-lg-6 text-right">
-                                        <h3>12/14 </h3>
-                                    </div>
-                                </div>
-                                <div class="postContentContainer col-lg-12" style="padding-bottom: 25px;">
-                                    <img src="http://a57.foxnews.com/images.foxnews.com/content/fox-news/opinion/2018/03/30/newt-gingrich-easter-shows-wondrous-love-god/_jcr_content/par/featured_image/media-0.img.jpg/0/0/1522359897007.jpg?ve=1" 
-                                         class="img-responsive img-rounded">
-                                </div>
-                                 <div class="col-lg-12 text-justify"><i class="fas fa-heart icon"></i>
-                                    <p>23 likes</p>
-                                </div>
-                                <div class="col-lg-12 text-justify">
-                                    <p>Our Father in heaven, hallowed be your name. Your kingdom come, your will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our debts, as we also have forgiven our debtors. And lead us not into temptation, but deliver us from evilt</p>
-                                </div>
-                                <div class="col-lg-12 text-justify">
-                                    <p>Comment</p>
-                                </div>
-                            </div>        
-                        </div>
-                        <div class="col-lg-2" style="margin: 10px;"></div>
-                        
-                      
-                    </div>
-                    <!-- FIN Div Principal -->
-
-                    <div class="col-md-12 col-lg-12 text-center containerTrx" style="margin-top: 10px;">
-                        <div class="col-lg-2"></div>
-                        <div id="mainContainer" class="col-lg-8 centeredContainer" style="background: white">
-                            <div class="postcontainer col-lg-12">
-                                <div class="postHeaderContainer col-lg-12">
-                                    <div class="postHeaderTitleContainer col-lg-6 text-left">
-                                        <h2>Jesus Christ</h2>
-                                    </div>
-                                    <div class="postHeaderDateContainer col-lg-6 text-right">
-                                        <h3>12/14 </h3>
-                                    </div>
-                                </div>
-                                <div class="postContentContainer col-lg-12" style="padding-bottom: 25px;">
-                                    <img src="http://a57.foxnews.com/images.foxnews.com/content/fox-news/opinion/2018/03/30/newt-gingrich-easter-shows-wondrous-love-god/_jcr_content/par/featured_image/media-0.img.jpg/0/0/1522359897007.jpg?ve=1" 
-                                         class="img-responsive img-rounded">
-                                </div>
-                                 <div class="col-lg-12 text-justify"><i class="fas fa-heart icon"></i>
-                                    <p>23 likes</p>
-                                </div>
-                                <div class="col-lg-12 text-justify">
-                                    <p>Our Father in heaven, hallowed be your name. Your kingdom come, your will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our debts, as we also have forgiven our debtors. And lead us not into temptation, but deliver us from evilt</p>
-                                </div>
-                                <div class="col-lg-12 text-justify">
-                                    <p>Comment</p>
-                                </div>
-                            </div>        
-                        </div>
-                        <div class="col-lg-2" style="margin: 10px;"></div>
-                        
-                      
-                    </div>
-                    <!-- FIN Div Principal -->
+            
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
